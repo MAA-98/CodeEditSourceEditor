@@ -25,10 +25,11 @@ let package = Package(
             exact: "0.1.20"
         ),
         // CodeEditSymbols
-        .package(
-            url: "https://github.com/CodeEditApp/CodeEditSymbols.git",
-            exact: "0.2.3"
-        ),
+        .package(url: "https://github.com/MAA-98/CodeEditSymbols.git", branch: main)
+        //.package(
+        //    url: "https://github.com/CodeEditApp/CodeEditSymbols.git",
+        //    exact: "0.2.3"
+        //),
         // SwiftLint
         //.package(
         //    url: "https://github.com/lukepistrol/SwiftLintPlugin",
